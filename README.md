@@ -49,8 +49,14 @@ A Flask App was designed based on the queries developed in Step 1
  #### Additional Analysis
  
  **Temperature Analysis I**
-Analyzed if there was a meaningful difference between the temperature in June and December. 
+ 
+Analyzed if there was a meaningful difference between the temperatures in June compared to December. 
 An independent t-test (unpaired test) was used to compare the means of two independent groups.
+
+Null Hypothesis: There is no significant difference between the mean temperatures in June and December. 
+
+Alternate Hypothesis: Mean Temperature is June is significantly different from the mean temperature in December.
+
 Assuming a 5% significance level, the Null Hypothesis was rejected as pvalue < 0.05
  
  **Temperature Analysis II**
